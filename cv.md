@@ -43,4 +43,4 @@ Completed project: this is CV
   + TOP (Python/Django): <https://top-academy.online/>
 
 ## English 
-A1, I am studying English.
+A1<br>I am studying English.

@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "Faculty";
+    src: url("assets/fonts/Cabin-SemiBold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Cabin";
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+}
+
+a {
+    color: #fff;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0%;
+    bottom: 0;
+    background-color: #FFC905;
+    transition: 0.3s;
+}
+
+.underline:hover::before {
+    width: 100%;
+    transition: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+}
+
+.header {
+    height: 265px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    height: 265px;
+}
+
+.profile-picture img {
+    height: 265px;
+    width: 275px;
+}
+
+.header__inner__content {
+    padding-top: 66px;
+    padding-left: 32px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #FFC905;
+    width: 60px;
+    padding: 0 6px;
+    border-radius: 4px;
+    margin-bottom: 29px;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 17px;
+    background-color: #FFC905;
+    left: 0;
+    bottom: -11px;
+}
+
+.description {
+    font-weight: 400;
+}
+
+.description span {
+    text-decoration: line-through;
+}
+
+.main {
+    color: #ffff;
+}
+
+.left-column {
+    background-color: #292935;
+    width: 275px;
+    padding-top: 46px;
+    padding-left: 17px;
+}
+
+.education {
+    margin-bottom: 45px;
+}
+
+.education ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.education a {
+    font-size: 15px;
+}
+
+.skils {
+    margin-bottom: 29px;
+}
+
+.skils__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skils__list li {
+    position: relative;
+}
+
+.skils__list li::after {
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 4px;
+    background-color: #5E5D6B;
+    left: 100px;
+    top: 7px;
+}
+
+.skils__list li::before {
+    z-index: 1;
+    position: absolute;
+    content: "";
+    height: 4px;
+    background-color:#FFC905;
+    left: 100px;
+    top: 7px;
+}
+
+.li__figma::before {
+    width: 70px;
+}
+
+.li__html::before {
+    width: 50px;
+}
+
+.li__css::before {
+    width: 45px;
+}
+
+.li__js::before {
+    width: 30px;
+}
+
+.li__python::before {
+    width: 25px;
+}
+
+.li__c::before {
+    width: 20px;
+}
+
+.contacts {
+    height: 91px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts a {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    gap: 11px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.contacts div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 37px;
+    background-color: #FFC905;
+}
+
+.right-column {
+    background-color: #22222E;
+    width: 305px;
+    padding-top: 46px;
+    padding-left: 33px;
+}
+.experience {
+    margin-bottom: 28px;
+}
+
+.experience h4 {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.experience ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer {
+    color: #fff;
+}
+
+.footer address {
+    padding-top: 10px;
+    background-color: #1d1d27;
+    width: 100%;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo__rs-school {
+    height: 40px;
+}

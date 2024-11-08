@@ -249,3 +249,22 @@ h2::after {
     gap: 10px;
 }
 
+.footer {
+    color: #fff;
+}
+
+.footer address {
+    padding-top: 10px;
+    background-color: #1d1d27;
+    width: 100%;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo__rs-school {
+    height: 40px;
+}
